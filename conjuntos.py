@@ -21,9 +21,9 @@ def uniao(conj1, conj2):
     array.extend(conj1)
     array.extend(conj2)
 
-    for i in range(len(array)-1, 0):
-        if array.count(i) > 1:
-            array.remove(i)
+    for i in range(len(array)-1, 0, -1):
+        if array.count(array[i]) > 1:
+            array.pop(i)
     return array
 
 
