@@ -70,22 +70,22 @@ for i in range(0, int(num_op)):
         conj_1 = ", ".join(_set1)
         conj_2 = ", ".join(_set2)
         resposta = ", ".join(uniao(_set1, _set2))
-        print("União: ", "conjunto 1: {%s} conjunto 2: {%s} Resposta: {%s}" % (conj_1, conj_2, resposta))
+        print("União: ", "conjunto 1: {%s} conjunto 2: {%s} Resultado: {%s}" % (conj_1, conj_2, resposta))
 
     if optype == 'I':
         conj_1 = ", ".join(_set1)
         conj_2 = ", ".join(_set2)
         resposta = ", ".join(intersecao(_set1, _set2))
-        print("Interseção: ", "conjunto 1: {%s} conjunto 2: {%s} Resposta: {%s}" % (conj_1, conj_2, resposta))
+        print("Interseção: ", "conjunto 1: {%s} conjunto 2: {%s} Resultado: {%s}" % (conj_1, conj_2, resposta))
 
     if optype == 'D':
         conj_1 = ", ".join(_set1)
         conj_2 = ", ".join(_set2)
         resposta = ", ".join(diferenca(_set1, _set2))
-        print("Diferença: ", "conjunto 1: {%s} conjunto 2: {%s} Resposta: {%s}" % (conj_1, conj_2, resposta))
+        print("Diferença: ", "conjunto 1: {%s} conjunto 2: {%s} Resultado: {%s}" % (conj_1, conj_2, resposta))
 
     if optype == 'C':
         conj_1 = ", ".join(_set1)
         conj_2 = ", ".join(_set2)
         resposta = ", ".join(prod_cartesiano(_set1, _set2))
-        print("Produto Cartesiano: ", "conjunto 1: {%s} conjunto 2: {%s} Resposta: {%s}" % (conj_1, conj_2, resposta))
+        print("Produto Cartesiano: ", "conjunto 1: {%s} conjunto 2: {%s} Resultado: {%s}" % (conj_1, conj_2, resposta))
