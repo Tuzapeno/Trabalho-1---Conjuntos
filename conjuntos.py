@@ -1,3 +1,7 @@
+#Arthur Neumann Salerno 
+#Programa que recebe um input de um arquivo de texto, contendo na primeira linha o número de operações a serem realizadas, nas três linhas seguintes, a operação,
+#o primeiro conjunto e o segundo conjunto respectivamente. a saída é mostrada na tela dizendo qual é a operação e o resultado dela.
+
 def tira_espaco(string):
     return string.replace(" ", "")
 
