@@ -31,7 +31,7 @@ def intersecao(conj1, conj2):
     array = []
     for i in conj1:
         for j in conj2:
-            if i == j:
+            if i == j and i not in array:
                 array.append(i)
     return array
 
@@ -54,7 +54,7 @@ def prod_cartesiano(conj1, conj2):
     return array
 
 
-f = open('texto.txt', 'r')
+f = open('teste3.txt', 'r')
 
 num_op = f.readline()
 
