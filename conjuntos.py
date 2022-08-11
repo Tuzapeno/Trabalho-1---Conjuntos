@@ -1,6 +1,13 @@
 #Arthur Neumann Salerno 
-#Programa que recebe um input de um arquivo de texto, contendo na primeira linha o número de operações a serem realizadas, nas três linhas seguintes, a operação,
-#o primeiro conjunto e o segundo conjunto respectivamente. a saída é mostrada na tela dizendo qual é a operação e o resultado dela.
+
+#O  programa  que  você  desenvolverá  irá  receber  como  entrada um arquivo de texto  (.txt) 
+#contendo vários conjuntos de dados e várias operações. Estas operações e dados estarão representadas 
+#em um arquivo de textos contendo apenas os dados referentes as operações que devem ser realizadas 
+#segundo a seguinte regra fixa: a primeira linha do arquivo de texto de entrada conterá o número de 
+#operações  que  estão  descritas  no  arquivo,  este  número  de  operações  será  um  inteiro;  as  linhas 
+#seguintes  seguirão  sempre  o  mesmo  padrão  de  três  linhas:  a  primeira  linha  apresenta  o  código  da 
+#operação  (U para união, I para interseção, D para diferença e C produto cartesiano),  a  segunda  e 
+#terceira linhas conterão os elementos dos conjuntos separados por virgulas. 
 
 def tira_espaco(string):
     return string.replace(" ", "")
